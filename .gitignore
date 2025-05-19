@@ -1,0 +1,12 @@
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore attention module
+csrnet_canny/hajjv1
+csrnet_canny/ShanghaiTech
+# Ignore temporary result files
+some_temp_results/
