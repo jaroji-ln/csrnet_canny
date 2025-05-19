@@ -10,3 +10,4 @@ csrnet_canny/hajjv1
 csrnet_canny/ShanghaiTech
 # Ignore temporary result files
 some_temp_results/
+*.pth.tar
