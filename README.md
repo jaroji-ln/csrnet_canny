@@ -9,10 +9,9 @@ This repository implements an enhanced version of [CSRNet](https://doi.org/10.11
 - SHAP-based interpretability supported.
 - Compatible with HaCrowd and ShanghaiTech datasets.
 
----
 
 ## Project Structure
-
+<pre> <code>
 attention/
 csrnet_canny/
 ├── model.py
@@ -24,8 +23,8 @@ csrnet_canny/
 ├── train.ipynb
 ├── make_dataset.ipynb
 └── evaluation.ipynb
+</code></pre>
 
----
 ## Download Pretrained Models
 
 Due to GitHub's file size limit, the pretrained `.pth.tar` models are hosted externally. Use the following script to download them:
@@ -37,7 +36,7 @@ Due to GitHub's file size limit, the pretrained `.pth.tar` models are hosted ext
 | canny-shtb-model\_best.pth.tar    | [Google Drive](https://drive.google.com/file/d/1hwEYDgmpVsJlq7AGPZu2yPgg2OfvZHqJ/view?usp=sharing) |
 
 
-## Download Pretrained Models
+## Train the model
 python train.py hacrowd_train_data.json hacrowd_val_data.json 0 canny-hacrowd-
 
 ## Result
