@@ -14,20 +14,20 @@ This repository implements an enhanced version of [CSRNet](https://doi.org/10.11
 <pre> <code>
 attention/
 csrnet_canny/
-├── model.py
-├── train.py
-├── dataset.py
-├── image.py
-├── utils.py
-├── earlystoping.py
-├── train.ipynb
-├── make_dataset.ipynb
-└── evaluation.ipynb
+├── model.py            # CSRnet model enhanced 4 channel
+├── train.py            # Script for train the model
+├── dataset.py          # Script for images and ground truth
+├── image.py            # Script for processing the image
+├── utils.py            # Function to save checkpoint and best model
+├── earlystoping.py     # Early stopping during training process
+├── train.ipynb         # Notebook for training
+├── make_dataset.ipynb  # Notebook for preparing dataset i.e generate density map
+└── evaluation.ipynb    # Compute metrics and SHAP interpretability
 </code></pre>
 
 ## Download Pretrained Models
 
-Due to GitHub's file size limit, the pretrained `.pth.tar` models are hosted externally. Use the following script to download them:
+Due to GitHub's file size limit, the pretrained `.pth.tar` models are hosted externally. Use the following link to download them:
 
 | Model                             | Link                                                                       |
 | --------------------------------- | -------------------------------------------------------------------------- |
